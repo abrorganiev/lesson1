@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    height: 100vh;
+}
+.headeri {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px 2px;
+}
+ol {
+    display: flex;
+}
+li {
+    font-family: Poppins,sans-serif;
+    background-color: white;
+    color: black;
+    height: 60px;
+    width: 120px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.pde {
+    color: red;
+}
+
+li:hover:nth-child(2) {
+    color: red;
+}
+
+li:hover:nth-child(3) {
+    color: red;
+}
+
+li:hover:nth-child(4) {
+    color: red;
+}
+
+li:hover:nth-child(5) {
+    color: red;
+}
+
+li:hover:nth-child(6) {
+    color: red;
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+}
+.yozuvla{
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+    align-items: flex-start;
+}
+
+.qizilfon {
+    height: 657px;
+    width: 30%;
+    display: flex;
+    background-image: url("img/top-left-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+}
+h4 {
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+h6 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+button{
+    color: rgba(255, 0, 0, 0.7);
+    width: 170px;
+    height: 40px;
+    border: white 2px solid;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 1px;
+}
+.rasmla{
+    width: 70%;
+    background-size: cover;
+}
+.rasmla img{
+    height: 100%;
+    width: 100%;
+}
+.about{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.yozuvla2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ichidan{
+    background-color: white;
+    height: 60vh;
+    width: 643px;
+}
+h3{
+    font-weight: lighter;
+    color: red;
+}
+.mavzu{
+    font-size: 35px;
+}
+.text{
+    font-family: "Yu Gothic Medium";
+    font-size: 16px;
+}
+.ovqat{
+    width: 205px;
+    padding: 20px;
+}
+.videosi{
+    height: 60vh;
+    width: 480px;
+    background-image: url("img/about-video-bg.jpg");
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dumaloq{
+    background-color: brown;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play{
+    width: 20px;
+    height: 20px;
+}
+.play:hover{
+    width: 15px;
+    height: 15px;
+    background-color: brown;
+}
+.dumaloq:hover{
+    background-color: brown;
+}
+.about2{
+    height: 100vh;
+    background-color: white;
+    align-items: center;
+}
+.yozuvla3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /*align-items: center;*/
+}
+h3{
+    font-weight: lighter;
+    color: red;
+}
+.mavzula{
+    margin-left: 115px;
+}
+.mavzu{
+    font-size: 35px;
+}
+.rasmlar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.desert{
+    width: 240px;
+    height: 400px;
+    background-image: url("img/menu-item-01.jpg");
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.deserto{
+    width: 100%;
+    height: 60%;
+    background-color: brown;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    position: absolute;
+    bottom: -100%;
+    transition: 0.5s;
+}
+.narx{
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.narx1{
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.narx2{
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.narx3{
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.narx4{
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desert:hover .deserto{
+    bottom: 0;
+}
+.chefs{
+    height: 100vh;
+}
+.write{
+    margin: 50px;
+    font-family: "Calibri Light";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ww{
+    color: #f95849;
+}
+.over_ch{
+    display: flex;
+    justify-content: space-around;
+}
+.ochefs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 430px;
+    border: 1px solid #afafaf;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.ochefs img{
+    z-index: -1;
+}
+.rrr{
+    width: 160px;
+    height: 60px;
+    margin-left: 110px;
+    margin-top: 170px;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -500px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.eee:hover .icon{
+    top: 0;
+    opacity: 1;
+}
+.registration {
+    background-image: url("https://technext.github.io/klassy-cafe/assets/images/reservation-bg.jpg");
+    height: 100vh;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reg {
+    display: flex;
+    border: none;
+    color: white;
+    align-items: center;
+    font-family: "Calibri Light";
+    margin: 50px;
+}
+
+.row {
+    color: white;
+    font-size: 25px;
+    font-family: "Calibri Light";
+
+}
+
+.two {
+    display: flex;
+    margin-left: 50px;
+    font-family: "Calibri Light";
+    display: flex;
+}
+
+.one {
+    width: 255px;
+    height: 160px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+.call img {
+    width: 60px;
+    height: 60px;
+}
+
+.regm {
+    width: 510px;
+    height: 545px;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.registration {
+    display: flex;
+}
+
+.your {
+    margin-left: 30px;
+}
+
+.your input, select {
+    width: 210px;
+    height: 46px;
+    margin: 8px;
+}
+
+.rrr h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.your button {
+    width: 451px;
+    height: 40px;
+    background-color: #f95849;
+    border: none;
+    border-radius: 5px;
+}
+
+.week {
+    height: 100vh;
+    width: 100%;
+}
+
+.week h6 {
+    position: relative;
+    font-size: 15px;
+    color: #fb5849;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.week h2 {
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: #2a2a2a;
+    text-align: center;
+    font-family: monospace;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    margin: 10px;
+}
+
+.breakfast, .lunch, .dinner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Calibri Light";
+}
+
+.salt {
+    display: flex;
+
+}
+
+.type {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.salt, .text {
+    margin: 20px;
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    height: 53px;
+    width: 100%;
+    align-items: center;
+    margin-top: 60px;
+    padding: 50px 0;
+    background-color: #fb5849;
+}
+.end{
+    color: white;
+}

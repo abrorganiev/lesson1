@@ -1,0 +1,96 @@
+body{
+    background-image: url("https://kartinkin.net/uploads/posts/2022-03/1646159029_1-kartinkin-net-p-kartinki-dlya-prezentatsii-priroda-1.jpg");
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box{
+    width: 400px;
+    height: 300px;
+    background-color: rgba(250, 247, 247, 0.29);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.box:hover{
+    background-color: chartreuse;
+}
+.aaa{
+    margin: 1px;
+}
+.bbb{
+    margin: 1px;
+}
+.ddd{
+    margin: 1px;
+}
+.ccc{
+    margin: 1px;
+}
+.fff{
+    margin: 1px;
+}
+.ggg{
+    margin: 1px;
+}
+.qqq{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.www{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.eee{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.rrr{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.ttt{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px
+}
+.yyy{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px
+}
+.ooo{
+    text-align: center;
+}
+td, table, th{
+    background-color: rgba(255, 255, 255, 0.15);
+    border: black 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+td:hover{
+    background-color: chartreuse;
+    color: red;
+}
+th:hover{
+    background-color: yellow;
+    color: red;
+}
+table:hover{
+    background-color: rgba(0, 128, 0, 0.32);
+}
+table:hover{
+    box-shadow: 0 0 10px 5px black;
+}
+.box:hover{
+    box-shadow: 0 0 10px 5px black;
+}

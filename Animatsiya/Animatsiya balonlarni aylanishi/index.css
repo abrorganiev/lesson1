@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+@keyframes balon {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+.moshina{
+    width: 600px;
+    height: 400px;
+}
+.balon{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    left: 413px;
+    bottom: 99px;
+    animation-name: balon;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.balon1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    align-self: flex-start;
+    right:  422px;
+    bottom: 92px;
+    animation-name: balon;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}

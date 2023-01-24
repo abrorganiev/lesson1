@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-color: salmon;
+}
+#aaa{
+    background-color: chartreuse;
+}
+#ooo{
+    background-color: dodgerblue;
+    margin-top: 200px;
+}
+.ddd{
+    background-color: brown;
+    margin-left: 40px;
+}
+.lola{
+    background-color: saddlebrown;
+    margin-bottom: 200px;
+}
+.fff{
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px red solid;
+    text-align: center;
+}
+.kkk{
+    background-color: dodgerblue;
+    color: brown;
+}
+.sss{
+    background-color: deepskyblue;
+    color: black;
+    text-decoration: none;
+}
+.ttt{
+    background-color: slateblue;
+    color: darkgreen;
+    
+}

@@ -1,0 +1,74 @@
+body{
+    background-color: mediumaquamarine;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+.main{
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(90deg, brown, deepskyblue, yellow 50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    text-align: center;
+}
+.aaa{
+    width: 400px;
+    height: 30px;
+    margin-left: 50px;
+    display: flex;
+    align-self: center;
+}
+.aaa{
+    background-image: linear-gradient(to left, blue, white);
+}
+.sss{
+    width: 400px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+}
+.ddd{
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+.fff{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    text-align: center;
+    padding: 5px;
+}
+.show{
+    width: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.ttt{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.fff{
+    width: 100px;
+    height: 30px;
+    align-items: center;
+}
+.ooo{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}

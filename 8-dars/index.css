@@ -1,0 +1,38 @@
+body{
+    height: 650px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-self: center;
+    border-radius: 20px;
+    filter: grayscale(100%);
+}
+.www{
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+}
+.box{
+    color: white;
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    transition: 1s;
+    text-align: center;
+    bottom: -600px;
+    background-color: rgba(169, 169, 169, 0.5);
+}
+.main:hover .box{
+    bottom: 0;
+}
+.main:hover{
+    filter: grayscale(0%);
+}

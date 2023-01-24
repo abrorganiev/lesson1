@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+.main div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    color: white;
+    border: white 1px solid;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: orange;
+}

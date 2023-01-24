@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+div:before {
+    background-size: cover;
+    content: "";
+    display: block;
+    width: 50%;
+    height: 50%;
+    background-color: #10d20a;
+    position: absolute;
+    transition: 1s;
+    top: -50px;
+    left: -50px;
+    border-radius: 50%;
+}
+div:hover:before {
+    border-radius: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+div:nth-child(1):before {
+    background: url("https://s0.rbk.ru/v6_top_pics/media/img/6/54/756431221546546.jpg") center/cover;
+}
+div:nth-child(3):before {
+    background: url("https://s.auto.drom.ru/i24267/pubs/4/87393/gen340_3804619.jpeg")center/cover;
+}
+div:nth-child(2):before{
+    background: url("https://avtomir.ru/upload/uf/1d5/9irvbj71ifxnxnest08z9qdlrcws2ze8.jpg")center/cover;
+}

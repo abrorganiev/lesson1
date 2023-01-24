@@ -1,0 +1,89 @@
+body{
+    background-color: slategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 1000px;
+}
+.main{
+    text-align: center;
+    color: mediumaquamarine;
+}
+.box{
+    width: 450px;
+    background-color: dodgerblue;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.box2{
+    height: 900px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.aaa{
+    background-color: royalblue;
+    color: white;
+    width: 400px;
+    height: 30px;
+    align-items: flex-start;
+    border-radius: 20px;
+}
+.aaa:hover{
+    background-color: blue;
+}
+.bbb{
+    color: white;
+    background-color: royalblue;
+    width: 400px;
+    height: 30px;
+    align-items: flex-start;
+}
+.ccc{
+    background-color: royalblue;
+    flex-direction: column;
+    display: flex;
+    height: 30px;
+}
+.ddd{
+    align-self: start;
+    margin-left: 30px;
+}
+.eee{
+    align-self: center;
+}
+.fff{
+    width: 400px;
+    height: 30px;
+    color: white;
+    background-color: royalblue;
+    align-self: start;
+}
+.fff:hover{
+    background-color: blue;
+}
+.nnn{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    background-color: royalblue;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.nnn:hover{
+    background-color: red;
+}
+.vvv{
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.kkk{
+    align-self: start;
+    margin-left: 30px;
+}
+input::placeholder{
+    color: white;
+}
