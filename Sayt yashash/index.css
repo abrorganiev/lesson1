@@ -17,6 +17,7 @@ body{
     align-self: center;
     position: fixed;
     box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px 2px;
+    z-index: 2000;
 }
 ol {
     display: flex;
@@ -52,7 +53,7 @@ li:hover:nth-child(4) {
 }
 
 li:hover:nth-child(5) {
-    color: red;
+    color: rgb(248, 25, 5);
 }
 
 li:hover:nth-child(6) {
@@ -88,7 +89,6 @@ h4 {
     font-size: 48px;
     font-weight: 400;
 }
-
 h6 {
     color: white;
     display: flex;
@@ -103,7 +103,9 @@ button{
     border: white 2px solid;
     border-radius: 5px;
     font-weight: bold;
-    box-shadow: 1px 1px 1px 1px;
+}
+button:hover{
+    border-radius: 7px;
 }
 .rasmla{
     width: 70%;
@@ -224,7 +226,7 @@ h3{
     align-items: center;
     align-self: center;
     position: absolute;
-    bottom: -100%;
+    bottom: -55%;
     transition: 0.5s;
 }
 .narx{
@@ -236,6 +238,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 .narx1{
     width: 70px;
@@ -246,6 +249,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 .narx2{
     width: 70px;
@@ -256,6 +260,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 .narx3{
     width: 70px;
@@ -266,6 +271,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 .narx4{
     width: 70px;
@@ -276,6 +282,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 .desert:hover .deserto{
     bottom: 0;
@@ -311,12 +318,6 @@ h3{
 }
 .ochefs img{
     z-index: -1;
-}
-.rrr{
-    width: 160px;
-    height: 60px;
-    margin-left: 110px;
-    margin-top: 170px;
 }
 .icon{
     width: 100%;
@@ -434,6 +435,84 @@ h3{
     text-align: center;
     margin-top: 110px;
 }
+.rasmlar p{
+    text-align: center;
+}
+
+.week h2 {
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: #2a2a2a;
+    text-align: center;
+    font-family: monospace;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    margin: 10px;
+}
+
+.breakfast, .lunch, .dinner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Calibri Light";
+}
+
+.salt {
+    display: flex;
+
+}
+
+.type {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.salt, .text {
+    margin: 20px;
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    height: 53px;
+    width: 100%;
+    align-items: center;
+    margin-top: 60px;
+    padding: 50px 0;
+    background-color: brown;
+}
+.end{
+    color: white;
+}
+.but{
+    color: rgba(255, 255, 255, 0.5);
+}
+.but:hover{
+    background-color: rgba(248, 25, 5, 0.5);
+}
+.week {
+    height: 100vh;
+    width: 100%;
+}
+
+.week h6 {
+    position: relative;
+    font-size: 15px;
+    color: #fb5849;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 110px;
+}
 
 .week h2 {
     line-height: 40px;
@@ -488,4 +567,17 @@ h3{
 }
 .end{
     color: white;
+}
+.ccc{
+
+}
+.cost{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
 }
